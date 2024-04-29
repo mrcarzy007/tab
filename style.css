@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+body {
+  height: 100vh;
+  background-color: rgb(127, 129, 129);
+}
+.tab {
+  width: 550px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+.tab button {
+  background: #90caf8;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.tab button:hover {
+  background: #74aedd;
+}
+.tab button.active {
+  background: #fff;
+}
+
+.tab button.active {
+  background: #fff;
+}
+
+.tabcontent {
+  width: 550px;
+  background: whitesmoke;
+  padding: 14px;
+  font-family: "Arial";
+  line-height: 21px;
+  display: none;
+}
